@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+    /* typo & icons */
+    .icon-color {
+        @apply text-[#999]
+    }
+    .liked {
+        @apply text-red-600
+    }
+    .retweeted {
+        @apply text-[#32CD32]
+    }
+
+
+    /* layout */
+    .tweet-input-area {
+        @apply flex items-start gap-[10px]
+    }
+    
+    /* tweet */
+    .tweet {
+        @apply border-t border-solid border-gray-200 pt-[20px] pb-0 px-0 w-full my-[15px] mx-0
+    }
+    .tweet-inner {
+        @apply flex items-start gap-[10px]
+    }
+    .tweet-details {
+        @apply flex text-[13px] justify-between w-[160px]
+    }
+    .tweet-detail {
+        @apply flex gap-[4px]
+    }
+    .tweet-reply {
+        @apply border-t border-solid border-gray-200 pt-[20px] pb-0 px-0 my-[10px] mr-0 ml-[40px] w-4/5
+    }
+    .handle {
+        @apply text-[12px] font-medium text-[#555] mt-0 pb-2
+    }
+    .tweet-text {
+        @apply w-[207px] text-[14px] leading-[20px] pb-2
+    }
+
+    /* images */
+    .profile-pic {
+        @apply border-solid border border-gray-300 rounded-full w-[48px]
+    }
+
+    /* utility */
+    /* .hidden {
+        @apply hidden
+    } */
+}
