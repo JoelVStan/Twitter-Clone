@@ -9,7 +9,7 @@
 
 <h2>🖥 DEMO</h2>
 
-[CLICK HERE](https://vickys-meme-picker.netlify.app/) to try the website.
+[CLICK HERE](https://xclone-by-joeltsan.netlify.app/) to try the website.
 
 <h2>🧐 Features</h2>
 
